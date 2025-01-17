@@ -1,0 +1,55 @@
+{
+	"name": "nikka",
+	"version": "1.0.1",
+	"description": "A simple WhatsApp bot built by haki.",
+	"main": "index.js",
+	"type": "module",
+	"imports": {
+		"#lib": "./lib/index.js",
+		"#database": "./lib/database.js",
+		"#bot": "./bot/index.js",
+		"#sql": "./sql/index.js",
+		"#utils": "./utils/index.js",
+		"#config": "./config.js"
+	},
+	"scripts": {
+		"start": "node index"
+	},
+	"files": [
+		"lib",
+		"plugins",
+		"sql"
+	],
+	"license": "MIT",
+	"keywords": [
+		"whatsapp-bot",
+		"haki",
+		"baileys"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hakisolos/x-nikka-xd.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hakisolos/x-nikka-xd/issues"
+	},
+	"homepage": "https://github.com/hakisolos/x-nikka-xd#readme",
+	"author": "H4KI-XER",
+	"dependencies": {
+		"@ffmpeg-installer/ffmpeg": "^1.1.0",
+		"axios": "^1.7.9",
+		"baileys": "github:hakisolos/nikka-baileys",
+		"dotenv": "^16.4.7",
+		"fluent-ffmpeg": "^2.1.3",
+		"node-webpmux": "^3.2.0",
+		"pg": "^8.13.1",
+		"proxy-agent": "^6.5.0",
+		"qrcode-terminal": "^0.12.0",
+		"sequelize": "^6.37.5",
+		"sharp": "^0.33.5",
+		"simple-git": "^3.27.0",
+		"sqlite3": "^5.1.7",
+		"xstro-utils": "^1.0.5"
+	},
+	"packageManager": "yarn@1.22.22"
+}
